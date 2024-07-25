@@ -1,0 +1,59 @@
+.box-login{
+    width: 100%;
+    max-width: 120rem;
+    height: 65rem;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 3.5%;
+
+    display: grid;
+    grid-template-columns: 60rem auto;
+}
+.box-login .formulario{
+    height: 100%;
+    padding: 10rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, auto);
+   gap: 1rem;
+}
+.box-login .logo{
+    grid-column: 1/3;
+    font-size: 1.5rem;
+}
+.box-login .texto{
+    grid-column: 1/5;
+    font-weight: 100;
+
+}
+.box-login .btn-facebook{
+    grid-column: 1/4;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: white;
+
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.box-login .btn-xing{
+    grid-column: 4/8;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.box-login span{
+    grid-column: 1/8;
+    font-size: 1.5rem;
+}
