@@ -54,6 +54,6 @@
     justify-items: center;
 }
 .box-login span{
-    grid-column: 1/8;
+    grid-column: 3/7;
     font-size: 1.5rem;
 }
