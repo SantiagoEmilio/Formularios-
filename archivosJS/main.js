@@ -15,7 +15,7 @@ let formularios = [
     {nombre: "login", link: "componentes/login/login.html"},
     {nombre: "Formulario De Contacto", link: "componentes/FormularioDeContacto/indexDeContacto.html"},
     {nombre: "Formulario De Registro", link: "componentes/FormularioDeRegistro/registro.html"},
-    {nombre: "formulario De Búsqueda", link: "componentes/FormularioDEBusqueda/FormularioDeBus.html"},
+    {nombre: "formulario De Búsqueda", link: "componentes/ForumularioDEBusqueda/FomularioDeBus.html"},
     {nombre: "Formulario De Pedido Compras", link: "componentes/formularioDePeriodosDeCompras/periodosDeCompras.html"},
     {nombre: "formulario De Comentarios Reseñas", link: "componentes/FormularioDeComentariosReseñas/indexComentariosReseña.html"}
 ];
