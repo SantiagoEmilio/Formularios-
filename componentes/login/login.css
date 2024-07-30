@@ -57,3 +57,57 @@
     grid-column: 3/7;
     font-size: 1.5rem;
 }
+
+#Login {
+    grid-column: 1/9;
+
+}
+
+#Login label {
+    display: block;
+    color: gray;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Login input {
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blueviolet;
+
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#Login .opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Login .opciones label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#Login .opciones label input {
+    width: 2rem;
+}
+
+#Login .botones button {
+    width: 15rem;
+    height: 4rem;
+    margin: 10px;
+
+
+}
+
+#Login .botones .btn-login {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
